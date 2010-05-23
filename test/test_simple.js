@@ -1,8 +1,8 @@
-var nntp = require('../lib/nntp'),
-    path = require('path'),
-    fs = require('fs'),
-    sys = require('sys'),
-    assert = require('assert');
+var nntp = require('../lib/nntp')
+  , path = require('path')
+  , fs = require('fs')
+  , sys = require('sys')
+  , assert = require('assert');
     
 var creds = fs.readFileSync(path.join(__dirname, 'creds')).replace('\n','').split(',')
 
